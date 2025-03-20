@@ -1,8 +1,48 @@
 hero:
   image: /images/uploads/homepage-hero.jpg
   title: Great coffee with a conscience
-story: >-
-  Kaldi is the coffee store for everyone who believes that great coffee
+story: "Kaldi is the coffee store for everyone who believes that great coffee
   shouldn't just taste good, it should do good too. We source all of our beans
   directly from small scale sustainable farmers and make sure part of the
   profits are reinvested in their communities.
+
+
+  <form name=\"contact\" method=\"POST\" data-netlify=\"true\">\r
+
+  \  <p>\r
+
+  \    <label>Your Name: <input type=\"text\" name=\"name\" /></label>\r
+
+  \  </p>\r
+
+  \  <p>\r
+
+  \    <label>Your Email: <input type=\"email\" name=\"email\" /></label>\r
+
+  \  </p>\r
+
+  \  <p>\r
+
+  \    <label>Your Role: <select name=\"role[]\" multiple>\r
+
+  \      <option value=\"leader\">Leader</option>\r
+
+  \      <option value=\"follower\">Follower</option>\r
+
+  \    </select></label>\r
+
+  \  </p>\r
+
+  \  <p>\r
+
+  \    <label>Message: <textarea name=\"message\"></textarea></label>\r
+
+  \  </p>\r
+
+  \  <p>\r
+
+  \    <button type=\"submit\">Send</button>\r
+
+  \  </p>\r
+
+  </form>\r\n"
